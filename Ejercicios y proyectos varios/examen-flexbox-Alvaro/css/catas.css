@@ -1,0 +1,58 @@
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+main h1,
+h2,
+h3,
+h4,
+p,
+a {
+    color: #000000;
+}
+
+.bienvenida h4 {
+    color: white;
+}
+
+.catas-talleres {
+    display: flex;
+    flex-direction: column;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.taller {
+    margin-bottom: 7em;
+    display: flex;
+    gap: 2em;
+}
+
+.contenido-curso {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+
+/*Movile design*/
+
+@media screen and(max-width: 768px) {
+    .catas-talleres {
+        flex-direction: column;
+    }
+    .taller {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cargar_img_srcset.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="imagen_responsive">
+        <picture>
+            <source srcset="img/imagen.jpg" media="(min-width:1000px)">
+            <source srcset="img/imagen-1000.jpg" media="(min-width:700px)">
+            <img src="img/imagen-700.jpg" alt="Flowers" style="width:auto;">
+        </picture>
+    </div>
+
+
+</body>
+
+</html>

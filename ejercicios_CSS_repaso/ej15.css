@@ -1,0 +1,12 @@
+:root {
+    color: red;
+}
+
+table {
+    border: 0.2em dashed red;
+    border-bottom: 0.2em solid red;
+}
+
+textarea {
+    color: seagreen;
+}

@@ -1,0 +1,15 @@
+a:hover {
+    cursor: crosshair;
+}
+
+li {
+    display: inline-block;
+}
+
+ul li:nth-child(1) {
+    background-color: orange;
+}
+
+ul li:nth-child(2) {
+    background-color: green;
+}

@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Wild World;
+    src: url('fonts/Animal-Crossing-Wild-World.ttf');
+}
+
+#nav_lateral a {
+    font-family: Wild World;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+#img_banner {
+    height: 100vh;
+    width: calc(100vw-1rem);
+    background-image: url(img/bannerAC.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+}
+
+#text1 {
+    font-family: Wild World;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    top: 50vh;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+nav {
+    position: relative;
+    z-index: 1000;
+    height: 4em;
+    text-align: center;
+    line-height: 4em;
+    padding-right: 15px;
+    background-color: #B9A57A;
+}
+
+nav a {
+    display: inline-block;
+    font-family: Wild World;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: #76BED4;
+    background-color: white;
+}
+
+#titular1 {
+    height: 10vh;
+    background-color: white;
+    line-height: 70px;
+    text-align: center;
+    font-family: Wild World;
+}
+
+#titular2 {
+    height: 10vh;
+    background-color: white;
+    line-height: 70px;
+    text-align: center;
+    font-family: Wild World;
+}
+
+#section_img2 {
+    height: 100vh;
+    width: calc(100vw-1rem);
+    background-image: url(img/animal-crossing-pesca.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+}
+
+#section_img3 {
+    height: 100vh;
+    width: calc(100vw-1rem);
+    background-image: url(img/torneos.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+}
+
+#section_img3 a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: Wild World;
+}
+
+#contacto {
+    position: relative;
+    left: 40%;
+    top: 10%;
+    width: 315px;
+    background-color: white;
+    display: block;
+    font-family: Wild World;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 1px 1px #808080;
+}
+
+#nombre {
+    margin: 10px;
+}
+
+#email {
+    margin: 10px;
+}
+
+#textarea {
+    margin: 10px;
+}
+
+#contacto h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.boton_enviar {
+    font-family: Wild World;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    right: -28%;
+    margin: 0 auto;
+    height: 50px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #65bce8 0%, #174866 100%);
+}
+
+.boton_enviar:hover {}
+
+#btn_inicio {
+    padding-left: 15px;
+    margin: 0 auto;
+    height: 50px;
+    width: 200px;
+    position: fixed;
+    bottom: 0;
+    line-height: 50px;
+}
+
+#btn_inicio:hover {
+    background-color: turquoise;
+}

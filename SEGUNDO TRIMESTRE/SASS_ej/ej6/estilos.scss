@@ -1,0 +1,13 @@
+$ancho: 200px;
+$altura: 400px;
+.contenedor {
+    margin-bottom: 1rem;
+    width: $ancho;
+    height: 100px;
+    background-color: royalblue;
+}
+
+.contenedor_con_altura {
+    @extend .contenedor;
+    height: $altura;
+}

@@ -1,0 +1,49 @@
+div{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+div#translate{
+    transform: translate(50px, 20px);
+    margin-bottom: 30px;
+}
+div#rotate{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    transform: rotate(20deg);
+}
+div#scaleX{
+    margin-left: 60px;
+    transform: scaleX(1.4);
+}
+div#scaleY{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transform: scaleY(1.4);
+}
+div#scale{
+    margin-bottom: 60px;
+    margin-top: 60px;
+    transform: scale(1,2);
+}
+div#skewX{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transform: skewX(20deg);
+}
+div#skewY{
+    margin-bottom: 70px;
+    margin-top: 70px;
+    transform: skewY(20deg);
+}
+div#skew{
+    margin-top: 100px;
+
+    margin-left: 20px;
+    transform: skew(20deg,30deg);
+}

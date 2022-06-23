@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 600px;
+    max-width: 900px;
+    margin: 20px auto;
+    border: 3px solid red;
+    outline: 3px solid black;
+    /*linea por fuera no le importan los tamaños del div*/
+    border-radius: 5px;
+    /*lo hace flex a el y los hijos pero solo los hijos directos*/
+    display: flex;
+    /*flex-direction: row; en horizontal y con column en vertical, otros column-reverse, row-reverse*/
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+    /*es lo mismo pero en una sola propiedad */
+    justify-content: center;
+    /*alinea horizontalmente en el main asis*/
+    align-items: center;
+    /*alinea verticalmente en el cross asis*/
+    /*align-content: flex-start; al inicio del contenedor cuando tienes varias lineas tienes que usarlo con wrap*/
+}
+
+.item {
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 2rem;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.item1 {
+    background-color: cornflowerblue;
+    flex-grow: 1;
+}
+
+.item2 {
+    background-color: coral;
+    flex-grow: 1;
+    /*si el elemento tiene espacio flex disponible crece todo lo posible*/
+}
+
+.item3 {
+    background-color: lightgreen;
+    flex-grow: 1;
+}
+
+.item4 {
+    background-color: violet;
+    flex-grow: 1;
+}

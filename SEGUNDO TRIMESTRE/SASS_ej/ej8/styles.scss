@@ -1,0 +1,8 @@
+@for $num from 0 through 9 {
+    .colores#{$num+1} {
+        background-color: unquote('#'+'#{$num}'+'00000');
+        height: 50px;
+        width: 200px;
+        margin-top: 2rem;
+    }
+}

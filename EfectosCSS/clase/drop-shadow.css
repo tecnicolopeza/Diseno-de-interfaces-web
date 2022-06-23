@@ -1,0 +1,7 @@
+#imagen {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    filter: drop-shadow(0 0 40px #ff0000);
+}

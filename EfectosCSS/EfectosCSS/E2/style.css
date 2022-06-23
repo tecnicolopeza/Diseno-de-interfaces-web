@@ -1,0 +1,8 @@
+.botonSombra {
+    width: 200px;
+    height: 100px;
+    padding: 25px;
+    background-color: rgb(236, 14, 14);
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    color: white;
+}

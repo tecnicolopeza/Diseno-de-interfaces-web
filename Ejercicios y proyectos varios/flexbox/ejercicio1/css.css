@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container>article {
+    background-color: orange;
+    width: 25vw;
+    margin: 10px;
+    padding: 10px;
+}
+
+header {
+    color: white;
+    line-height: 10vh;
+    text-align: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: steelblue;
+}
+
+footer {
+    color: white;
+    line-height: 10vh;
+    text-align: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: steelblue;
+}

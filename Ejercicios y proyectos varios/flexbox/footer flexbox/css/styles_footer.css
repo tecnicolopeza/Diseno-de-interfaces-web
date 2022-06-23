@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: steelblue;
+}
+
+h2 { 
+    text-align: center
+}
+
+/* Aplicamos display: flex en el <body> */
+.pagina {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pagina .encabezado {
+    background-color: lime;
+}
+
+.pagina .contenido-principal {
+    background-color: salmon;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.pagina .footer {
+    background-color: black;
+    color: white;
+}
+
+.pagina h1, .pagina h2 {
+    margin: 0;
+}
+
+.pagina > * {
+    padding: 1rem;
+}
+
+/* La solución con maquetación tradicional hubiera sido con position: fixed en el footer.
+Esta solución da problemas cuando contenido-principal es grande; el comportamiento no es exactamente lo que queremos. Mejor con flex.
+
+
+.pagina .footer {
+    background-color: black;
+    color: white;
+    postion: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+*/
+
+
+
+
+

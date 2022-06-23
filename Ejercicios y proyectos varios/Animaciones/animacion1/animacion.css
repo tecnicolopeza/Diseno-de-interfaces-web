@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    position: relative;
+    top: 120px;
+    left: 220px;
+    width: 70vw;
+    height: 70vh;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.cubo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    border: 2px solid black;
+    animation-name: cambia_color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cambia_color {
+    from {
+        background-color: yellow;
+    }
+    5% {
+        background-color: greenyellow;
+    }
+    50% {
+        background-color: darkturquoise;
+    }
+    75% {
+        background-color: aquamarine;
+    }
+    to {
+        background-color: yellow;
+    }
+}

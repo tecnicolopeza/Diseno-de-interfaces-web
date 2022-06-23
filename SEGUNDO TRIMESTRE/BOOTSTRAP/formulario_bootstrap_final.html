@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Formulario con Bootstrap</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <h1 class="text-center">Formulario de acceso clientes</h1>
+
+            <form action="#" class="col-md-6 needs-validation" novalidate>
+
+                <legend><i class="bi bi-people-fill me-2"></i>Acceso usuarios</legend>
+
+                <div class="form-floating mb-3 position-relative">
+                    <input type="email" class="form-control" id="input-email" aria-describedby="email-help" placeholder required>
+                    <label for="input-email" class="form-label">Correo electrónico</label>
+                    <div id="email-help" class="form-text">No compartiremos su información con terceros...</div>
+                
+                    <div class="valid-tooltip">Su correo es válido.</div>
+                    <div class="invalid-tooltip">Debe completar su correo de forma correcta.</div>
+
+
+                </div>
+
+                <div class="form-floating mb-3 position-relative">
+                    <input type="password" class="form-control" id="input-password" placeholder required>
+                    <label for="input-password" class="form-label">Contraseña</label>
+                    <div id="password-help" class="form-text">Su contraseña debe contener al menos 8 caracteres...</div>
+                    <div class="valid-tooltip">Su contraseña es válida.</div>
+                    <div class="invalid-tooltip">Debe completar su contraseña.</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="select-perfil" class="form-label">Perfil</label>
+                    <select class="form-select" name="perfil" id="select-perfil">
+                        <option selected>Selecciona perfil</option>
+                        <option value="admin">Administrador/a</option>
+                        <option value="cliente">Cliente</option>
+                        <option value="invitado">Invitado/a</option>
+                    </select>
+                </div>
+
+                <div class="mb-3 form-check form-switch">
+                    <label for="check-recuerda" class="form-check-label">Recuérdame</label>
+                    <input type="checkbox" class="form-check-input" id="check-recuerda">
+                </div>
+
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-outline-primary"><i
+                            class="bi bi-arrow-up-right-circle-fill"></i> Entrar</button>
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+
+    </script>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.contenedor {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 30px;
+  -ms-border-radius: 40px;
+  background-color: coral;
+  color: white;
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=estilos.css.map */

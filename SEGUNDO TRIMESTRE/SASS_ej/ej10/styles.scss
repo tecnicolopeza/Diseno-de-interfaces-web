@@ -1,0 +1,12 @@
+$i:1;
+$cont:1;
+@while $cont < 6 {
+    @if($i%2 == 0) {
+        .ancho-col-#{$cont} {
+            width: #{100/$i*1%};
+        }
+        $cont:$cont+1;
+    }
+
+    $i:$i+1;
+}

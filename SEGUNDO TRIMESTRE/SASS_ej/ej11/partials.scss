@@ -1,0 +1,13 @@
+@import "_general";
+@import "_reset";
+@import "_colores";
+body {
+	font-family: $bodyfont;
+	background-color: $bodycolor;
+	font-size: $bodysize;
+}
+
+footer {
+	background-color: $footercolor;
+	clear: both;
+}

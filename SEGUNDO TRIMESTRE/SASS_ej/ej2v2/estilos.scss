@@ -1,0 +1,10 @@
+@use 'variables';
+body {
+    background-color: variables.$color-body;
+    font-size: variables.$size-font-h1;
+}
+
+h1 {
+    color: variables.$color-h1;
+    font-size: variables.$size-font-h1;
+}

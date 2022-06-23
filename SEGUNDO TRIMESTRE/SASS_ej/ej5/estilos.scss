@@ -1,0 +1,34 @@
+//Aplica colores a los elementos <header>, <h1>, <footer>, <h4> y <a> del archivo ejercicio5.html
+//de forma anidada, según la nomenclatura Sass.
+header {
+    width: 100%;
+    height: 100px;
+    background-color: coral;
+    h1 {
+        color: cornflowerblue;
+    }
+}
+
+main {
+    width: 100%;
+    height: 400px;
+    background-color: cornflowerblue;
+    h2 {
+        color: coral;
+    }
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+    h4 {
+        color: blueviolet
+    }
+    div {
+        background-color: burlywood;
+        ul {
+            color: darkseagreen;
+        }
+    }
+}

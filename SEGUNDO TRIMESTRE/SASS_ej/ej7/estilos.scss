@@ -1,0 +1,10 @@
+@function partir($tam, $num) {
+    @return calc($tam / $num);
+}
+
+.decimo {
+    padding: 5px;
+    width: partir(400px, 2);
+    background-color: cornflowerblue;
+    color: white;
+}

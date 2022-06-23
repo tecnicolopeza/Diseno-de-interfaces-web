@@ -1,0 +1,32 @@
+#contenedor {
+    position: relative;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: 660033;
+    width: 80%;
+    height: 96vh;
+    margin: 0 auto;
+}
+
+#elemento {
+    left: 0px;
+    /*para left hay que decirle que empiece en 0*/
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: darkblue;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    line-height: 150px;
+    transition: transform 3s, left 4s;
+}
+
+#contenedor:active #elemento {
+    /*al pulsar en el div hace la transicion*/
+    transform: rotate(1440deg);
+    left: 500px;
+}

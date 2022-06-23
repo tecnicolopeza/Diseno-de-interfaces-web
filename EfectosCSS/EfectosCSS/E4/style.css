@@ -1,0 +1,25 @@
+body{
+    background-color: cadetblue;
+}
+.ejemplo1{
+    background-color: rgb(202, 54, 54);
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 3px;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.ejemplo2{
+    background-image: linear-gradient(to right ,orange 5%, rgb(255, 213, 134) );
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 3px;
+}
+.ejemplo2:hover{
+    background-image: linear-gradient(orange, orange);
+    box-shadow: 3px 3px 10px orange;
+}

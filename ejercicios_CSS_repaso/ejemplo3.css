@@ -1,0 +1,20 @@
+p:nth-of-type(3) {
+    color: green;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+p:nth-of-type(2) {
+    color: blue;
+    font-size: 1.2em;
+}
+
+body {
+    background-color: lightblue;
+    color: grey;
+}
+
+h1,
+h2 {
+    color: red;
+}

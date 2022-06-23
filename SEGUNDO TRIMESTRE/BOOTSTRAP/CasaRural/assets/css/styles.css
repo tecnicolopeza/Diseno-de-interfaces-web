@@ -1,0 +1,57 @@
+:root {
+    --bs-blue: #037BC0;
+    --bs-green: #8CBC00;
+}
+
+hmtl {
+    font-size: 62.5%;
+    /* 1rem = 10px*/
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: "C:\Users\Vladesito\Desktop\2º DAW\Diseño de interfaces\SEGUNDO TRIMESTRE\BOOTSTRAP\Tienda muebles\assets\fonts\playfair\PlayfairDisplay-VariableFont_wght.ttf";
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+@media (min-width:768px) {
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 3rem;
+    }
+}
+
+
+/*reescribiendo colores*/
+
+.text-primary {
+    color: var(--bs-blue)!important;
+}

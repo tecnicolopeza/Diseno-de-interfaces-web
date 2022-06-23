@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*raiz ponemos el tamaño por defecto*/
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: Mountains of Christmas;
+    src: url('../fonts/MountainsofChristmas-Regular.ttf');
+}
+
+@font-face {
+    font-family: Raleway Thin;
+    src: url('../fonts/Raleway-VariableFont_wght.ttf');
+}
+
+p,
+a,
+.btn-input {
+    font-family: Raleway Thin;
+}
+
+h1 {
+    font-family: Mountains of Christmas;
+    font-size: 6rem;
+}
+
+h2 {
+    font-family: Mountains of Christmas;
+    font-size: 5.8rem;
+}
+
+h3 {
+    font-family: Mountains of Christmas;
+    font-size: 5rem;
+}
+
+img {
+    /*img responsive*/
+    width: 100%;
+    display: block;
+    height: -webkit-fill-available;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    background-image: url("../img/hero.jpg");
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+header h1 {
+    margin: 0 1rem 2rem 0;
+    color: white;
+    font-family: Mountains of Christmas;
+}
+
+main {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.bestWishes {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bestWishesIMG {
+    margin: 2rem 0 2rem 0;
+}
+
+article {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+article h1 {
+    margin-top: 4rem;
+}
+
+article h3 {
+    margin-top: 3rem;
+}
+
+.btn-input {
+    width: 100px;
+    padding: 5px;
+    margin: 0 0 2em 0;
+    background-color: transparent;
+    transform: scale(1);
+    transition-duration: 1s;
+}
+
+.btn-input:hover {
+    cursor: pointer;
+    background-color: yellowgreen;
+    color: white;
+    transform: scale(1.2);
+    font-weight: bolder;
+}
+
+.galeryH1 {
+    margin: 2rem 0 2rem 0;
+}
+
+.galery {
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "i1 i2" "i3 i2" "i3 i4" "i5 i4" "i6 i7";
+}
+
+.i1 {
+    grid-area: i1;
+}
+
+.i2 {
+    grid-area: i2;
+}
+
+.i3 {
+    grid-area: i3;
+}
+
+.i4 {
+    grid-area: i4;
+}
+
+.i5 {
+    grid-area: i5;
+}
+
+.i6 {
+    grid-area: i6;
+}
+
+.i7 {
+    grid-area: i7;
+}
+
+footer {
+    margin-top: 4rem;
+    width: 100%;
+    height: 70vh;
+    background-image: url("../img/footer_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.footer-copyright {
+    width: 100%;
+    background-color: black;
+    height: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright p {
+    align-self: center;
+}
+
+
+/*------------CONTENIDO RESPONSIVE PARA DESKTOP----------*/
+
+@media screen and (min-width: 768px) {
+    .principal {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .galery {
+        display: grid;
+        gap: 1rem;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "i1 i2 i3" "i4 i5 i3" "i4 i6 i7";
+    }
+    .footer-copyright {
+        width: 100%;
+        background-color: black;
+        height: 6rem;
+    }
+    .footer-copyright p {
+        font-size: 1.5rem;
+    }
+}

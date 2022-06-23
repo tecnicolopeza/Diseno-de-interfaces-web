@@ -1,0 +1,28 @@
+:root {
+    --font-family: Impact, Cambria;
+    --background-color: #778899;
+}
+
+body {
+    font-weight: bolder;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+h1::first-letter {
+    font-size: 2.5rem!important;
+}
+
+h2::first-letter {
+    font-size: 1.8rem!important;
+}
+
+p {
+    font-family: Cambria;
+}
+
+p::first-letter {
+    font-size: 1.2rem!important;
+}

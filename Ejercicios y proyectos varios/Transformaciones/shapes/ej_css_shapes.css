@@ -1,0 +1,38 @@
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+img[alt="circulo"] {
+    shape-outside: circle(35%);
+    clip-path: circle(35%);
+    width: 300px;
+    height: 200px;
+    position: relative;
+    float: right;
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+img[alt="poligono"] {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin: 10px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+img[alt="circulo"]:active {
+    transform: scale(1.2);
+}
+
+img[alt="poligono"]:active {
+    transform: scale(1.2);
+}

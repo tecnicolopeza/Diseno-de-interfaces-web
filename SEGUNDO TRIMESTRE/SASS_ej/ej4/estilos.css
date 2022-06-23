@@ -1,0 +1,14 @@
+ul {
+  color: tomato;
+  font-size: 20px;
+}
+ul ul {
+  color: lightgreen;
+  font-size: 16px;
+}
+ul ul ul {
+  color: cornflowerblue;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

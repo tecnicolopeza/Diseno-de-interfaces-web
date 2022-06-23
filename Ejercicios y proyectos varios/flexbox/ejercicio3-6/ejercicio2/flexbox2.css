@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    height: 70px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    /* flex: 1 0 120px; grow -shrink - basis */
+}
+
+.btn-header {
+    column-gap: 3px;
+}
+
+footer {
+    padding-top: 25px;
+}
+
+section {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+article {
+    flex: 200px;
+    width: 25%;
+    background-color: coral;
+    margin: 10px;
+}
+
+.article3 {
+    flex-basis: 50%;
+}
+
+h2,
+p {
+    padding: 10px;
+}

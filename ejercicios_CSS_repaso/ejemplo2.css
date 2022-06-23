@@ -1,0 +1,20 @@
+:root {
+    --background-color: lightgreen;
+    --color: grey;
+    --color-h1: red;
+    --color-p: black;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+h1 {
+    color: var(--color-h1);
+}
+
+p {
+    color: var(--color-p);
+    font-size: 14px;
+}

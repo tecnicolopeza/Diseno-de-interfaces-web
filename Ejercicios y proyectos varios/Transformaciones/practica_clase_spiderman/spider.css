@@ -1,0 +1,21 @@
+.container {
+    margin-top: 200px;
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: red;
+    overflow: hidden;
+}
+
+img {
+    position: absolute;
+    transform: translateY(0);
+    /*Empieza en 0*/
+    transition: 2s;
+}
+
+img:active {
+    transform: translateY(-120px);
+    /*Se mueve hacia arriba 120 px*/
+}

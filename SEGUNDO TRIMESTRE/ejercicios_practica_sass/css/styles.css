@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-error {
+  background-color: #f00;
+  color: #fff;
+  padding: 1em;
+  border-radius: 2em;
+  border: 0.2em solid #000;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,44 @@
+.contenedor {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn {
+    background-color: cornflowerblue;
+    width: 70px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid black;
+    font-size: 700;
+
+    &:hover {
+        box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+}
+
+.btn-success {
+    @extend .btn;
+    background-color: rgb(100, 237, 173);
+    color: rgb(164, 100, 237);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.btn-error {
+    @extend .btn;
+    background-color: rgb(237, 100, 118);
+    color: rgb(100, 232, 237);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-warning {
+    @extend .btn;
+    background-color: rgb(237, 166, 100);
+    color: rgb(100, 114, 237);
+    font-family: Impact, fantasy;
+}

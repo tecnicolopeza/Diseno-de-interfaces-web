@@ -1,0 +1,42 @@
+.contenedor {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn, .btn-warning, .btn-error, .btn-success {
+  background-color: cornflowerblue;
+  width: 70px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid black;
+  font-size: 700;
+}
+.btn:hover, .btn-warning:hover, .btn-error:hover, .btn-success:hover {
+  box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.btn-success {
+  background-color: #64edad;
+  color: #a464ed;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.btn-error {
+  background-color: #ed6476;
+  color: #64e8ed;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn-warning {
+  background-color: #eda664;
+  color: #6472ed;
+  font-family: Impact, fantasy;
+}
+
+/*# sourceMappingURL=estilos.css.map */

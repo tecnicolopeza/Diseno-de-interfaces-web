@@ -1,0 +1,27 @@
+#contenedor {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: 660033;
+    width: 80%;
+    height: 96vh;
+    margin: 0 auto;
+}
+
+#elemento {
+    height: 150px;
+    width: 150px;
+    background-color: darkblue;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    line-height: 150px;
+    transition-property: transform;
+    transition-duration: 4s;
+}
+
+#elemento:hover {
+    transform: translate(200px, 50px) rotate(25deg);
+}

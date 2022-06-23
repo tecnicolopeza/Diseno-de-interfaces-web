@@ -1,0 +1,16 @@
+$tomato: tomato;
+$verde: lightgreen;
+$blue: cornflowerblue;
+$tamañoFuente: (12px, 16px, 20px);
+ul {
+    color: $tomato;
+    font-size: nth($tamañoFuente, 3);
+    ul {
+        color: $verde;
+        font-size: nth($tamañoFuente, 2);
+        ul {
+            color: $blue;
+            font-size: nth($tamañoFuente, 1);
+        }
+    }
+}

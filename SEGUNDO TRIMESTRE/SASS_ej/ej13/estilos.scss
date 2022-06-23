@@ -1,0 +1,18 @@
+//variables
+$color_principal: tomato;
+$color_secundario: cornflowerblue;
+.card {
+    color: $color_principal;
+    &--grid {
+        color: $color_secundario;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__button {
+        color: $color_secundario;
+        &--green {
+            color: green;
+        }
+    }
+}

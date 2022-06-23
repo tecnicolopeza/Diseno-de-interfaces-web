@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(hamburguesa.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-descuento {
+    margin: 50px;
+    background-color: darkgoldenrod;
+    text-align: center;
+    flex-basis: 300px;
+    align-self: flex-start;
+    padding: 15px;
+}
+
+.hero-apertura {
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    flex-basis: 300px;
+    padding: 15px;
+}
+
+.hero-new {
+    margin: 50px;
+    background-color: darkgoldenrod;
+    align-self: flex-end;
+    text-align: center;
+    flex-basis: 300px;
+    padding: 15px;
+}

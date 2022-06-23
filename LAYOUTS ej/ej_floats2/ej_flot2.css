@@ -1,0 +1,56 @@
+.course {
+    border: 2px solid red;
+    border-radius: 25px;
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: cornflowerblue;
+    height: 25px;
+    color: white;
+}
+
+nav .menu-item {
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+.sidebar {
+    float: left;
+    height: 610px;
+    background-color: cornflowerblue;
+    width: 200px;
+    margin-top: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.sidebar .menu-item {
+    margin-bottom: 20px;
+}
+
+article {
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+    background-color: thistle;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}

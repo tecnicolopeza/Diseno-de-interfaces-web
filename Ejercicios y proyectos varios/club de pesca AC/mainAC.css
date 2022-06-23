@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: finkHeavy;
+    src: url('fonts/FinkHeavy.ttf');
+}
+
+@font-face {
+    font-family: Wild World;
+    src: url('fonts/Animal-Crossing-Wild-World.ttf');
+}
+
+.img_banner {
+    height: 100vh;
+    width: calc(100vw-1rem);
+    background-image: url(img/bannerAC.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+}
+
+nav {
+    position: static;
+    z-index: 1000;
+    height: 4em;
+    text-align: right;
+    line-height: 4em;
+    padding-right: 15px;
+    background-color: #B9A57A;
+}
+
+.div_logo img {
+    position: relative;
+    float: left;
+    padding-left: 30px;
+    padding-top: 5px;
+    height: 3.5em;
+    line-height: 4em;
+    margin: 0 auto;
+}
+
+nav a {
+    display: inline-block;
+    font-family: Wild World;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: #76BED4;
+    background-color: white;
+}
+
+#section_img2 {
+    height: 100vh;
+    width: calc(100vw-1rem);
+    background-image: url(img/animal-crossing-pesca.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+}

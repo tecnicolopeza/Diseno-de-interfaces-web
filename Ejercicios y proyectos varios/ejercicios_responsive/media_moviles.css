@@ -1,0 +1,108 @@
+/**Diseños movile first siemepre min-width*/
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    background-color: yellow;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.red,
+.blue,
+.green {
+    width: 90%;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+
+/**Moviles pequeños*/
+
+@media screen and (min-width: 576px) {
+    header {
+        display: block;
+        color: blue;
+        background-color: yellow;
+        margin: 0 auto;
+        width: 90%;
+        height: 150px;
+        text-align: center;
+        line-height: 150px;
+    }
+    .blue {
+        background-color: blue;
+        margin: 0 auto;
+        width: 50%;
+        height: 150px;
+    }
+    .red {
+        background-color: red;
+        margin: 0 auto;
+        width: 50%;
+        height: 150px;
+    }
+    .green {
+        position: relative;
+        background-color: green;
+        margin: 0 auto;
+        width: 90%;
+        height: 150px;
+    }
+}
+
+
+/** Moviles medianos*/
+
+@media screen and (min-width: 933px) {
+    header {
+        display: block;
+        color: green;
+        background-color: orange;
+        margin: 0 auto;
+        width: 90%;
+        height: 150px;
+        text-align: center;
+        line-height: 150px;
+    }
+    .blue {
+        display: inline-block;
+        background-color: blue;
+        margin: 0 auto;
+        width: 90%;
+        height: 150px;
+    }
+    .red {
+        display: inline-block;
+        background-color: red;
+        margin: 0 auto;
+        width: 90%;
+        height: 150px;
+    }
+    .green {
+        display: block;
+        background-color: green;
+        margin: 0 auto;
+        width: 90%;
+        height: 150px;
+    }
+}

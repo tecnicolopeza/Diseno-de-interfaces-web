@@ -1,0 +1,14 @@
+@mixin crear_grid($row, $columns, $gap) {
+    display: grid;
+    grid-template-columns: repeat($row, 1fr);
+    grid-template-rows: repeat($columns, 1fr);
+    gap: $gap;
+}
+
+// @mixin propiedades_grid($border-colum, $background-color) {
+//     border: $border-colum;
+//     background-color: $background-color;
+// }
+.contenedor {
+    @include crear_grid(10, 10, 50px);
+}

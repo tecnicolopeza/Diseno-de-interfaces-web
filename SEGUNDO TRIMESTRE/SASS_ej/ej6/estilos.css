@@ -1,0 +1,12 @@
+.contenedor, .contenedor_con_altura {
+  margin-bottom: 1rem;
+  width: 200px;
+  height: 100px;
+  background-color: royalblue;
+}
+
+.contenedor_con_altura {
+  height: 400px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 600px;
+    max-width: 900px;
+    margin: 60px auto;
+    border: 3px solid red;
+    outline: 3px solid black;
+    border-radius: 5px;
+    /*Display grid*/
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    /* grid-template-rows: 1fr 1fr 2fr; 1 fraccion, dos fraciones... */
+    /* grid-template-rows:repeat(3, 1fr); tres veces 1fr */
+    grid-template-columns: 20% 30% 30% 20%;
+    /* grid: 20% 60% 20% / 20% 30% 30% 20% shorthand*/
+    /*Se le puede poner gap pero no funciona con porcentajes*/
+    /* gap: 10px; */
+}
+
+.item {
+    margin: 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.item1 {
+    background-color: cornflowerblue;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    /* grid-row-start: 1;
+    grid-row-end: 2; */
+    grid-row: 1 / 2;
+    /*shorthand*/
+    /* grid-area: 1/1/2/5; */
+}
+
+.item2 {
+    background-color: coral;
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+
+.item3 {
+    background-color: lightgreen;
+    grid-row: 2/3;
+    grid-column: 3/5;
+}
+
+.item4 {
+    background-color: violet;
+    grid-column: 1/-1;
+    /*-1 llega hasta el final*/
+}

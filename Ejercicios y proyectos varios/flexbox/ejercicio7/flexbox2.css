@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+article {
+    padding: 0.4em;
+    flex: 200px;
+    background-color: coral;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        flex-direction: row;
+    }
+    article {
+        background-color: rgb(80, 147, 255);
+    }
+}

@@ -1,0 +1,21 @@
+$ancho: 1024px;
+$mitad: $ancho/2;
+$cuarto: $ancho/4;
+$octavo: $ancho/8;
+.div1 {
+    background-color: rebeccapurple;
+    width: $mitad;
+    height: 100px;
+}
+
+.div2 {
+    background-color: rebeccapurple;
+    width: $cuarto;
+    height: 100px;
+}
+
+.div3 {
+    background-color: rebeccapurple;
+    width: $octavo;
+    height: 100px;
+}

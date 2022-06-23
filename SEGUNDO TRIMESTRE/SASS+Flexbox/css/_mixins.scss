@@ -1,0 +1,4 @@
+//Mixins
+@mixins reset($box-model) {
+    box-sizing: $box-model;
+}
