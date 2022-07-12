@@ -1,0 +1,33 @@
+@mixin box-sizing($boxmodel) {
+    box-sizing: $boxmodel;
+}
+
+@mixin background-image($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@mixin mobile {
+    @media screen and (min-width: #{$small}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    
+}
+
+@mixin desktop {}
+
+//botones
+@mixin boton ($color_back, $color_font) {
+    background-color: $color_back;
+    color: $color_font;
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+
+}
